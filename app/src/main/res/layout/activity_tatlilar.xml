@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/restaurant_sekil"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imagemercimek"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:background="@drawable/klasikwaffle">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/txtmercimek"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:text="Klasik Waffle"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtmerfiyat"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:text="70  TL"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/btnmercimek"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:text="Sepete Ekle"
+                android:textStyle="bold"
+                android:textColor="#680A07"
+                android:textSize="20sp"
+                android:background="@drawable/btngiris">
+
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/restaurant_sekil"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imagetarhana"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:background="@drawable/meyvesizwaffle">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/txttarhana"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Meyvesiz Waffle"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold|italic">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txttarfiyat"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="60 TL"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold|italic">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/btntarhana"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/btngiris"
+                android:text="Sepete Ekle"
+                android:textColor="#680A07"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/restaurant_sekil"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageyayla"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:background="@drawable/dondurmaliwaffle">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/txtyayla"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:text="Dondurmalı Waffle"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtyaylafiyat"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:text="65 TL"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/btnyayla"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:text="Sepete Ekle"
+                android:textStyle="bold"
+                android:textColor="#680A07"
+                android:textSize="20sp"
+                android:background="@drawable/btngiris">
+
+            </Button>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Menü"
+        android:id="@+id/itemmenü"
+        android:icon="@drawable/ic_home"/>
+
+    <item android:title="Restaurant"
+        android:id="@+id/itemara"
+        android:icon="@drawable/ic_search"/>
+
+
+    <item android:title="Sepet"
+        android:id="@+id/itemsepet"
+        android:icon="@drawable/ic_sepet"/>
+
+    <item android:title="Profil"
+        android:id="@+id/itemprofil"
+        android:icon="@drawable/ic_person"/>
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#680A07"
+    tools:context=".KayitOl">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"
+        android:orientation="vertical"
+        android:background="#800A03"
+        android:gravity="center"
+        >
+
+        <EditText
+            android:id="@+id/edtadsoyad"
+            android:layout_width="340dp"
+            android:layout_height="55dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="  Ad Soyad"
+            android:background="@drawable/butnsekil"
+            android:drawableLeft="@drawable/baseline_person_24">
+
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/edteposta"
+            android:layout_width="340dp"
+            android:layout_height="55dp"
+            android:layout_marginVertical="15dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="  E posta"
+            android:background="@drawable/butnsekil"
+            android:drawableLeft="@drawable/baseline_mail_24">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/edtsifre"
+            android:layout_width="340dp"
+            android:layout_height="55dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:ems="10"
+            android:hint="  Şifre"
+            android:background="@drawable/butnsekil"
+            android:drawableLeft="@drawable/baseline_lock_24"
+            android:inputType="textPassword">
+
+        </EditText>
+
+
+        <Button
+            android:id="@+id/btnkayıtolasil"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:text="KAYIT OL"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:background="@drawable/btngiris">
+
+        </Button>
+
+    </LinearLayout>
+
+</RelativeLayout>

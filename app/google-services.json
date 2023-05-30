@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "593620282772",
+    "project_id": "foodaplication-e1fc1",
+    "storage_bucket": "foodaplication-e1fc1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593620282772:android:ae6b8412b1ad8470c33381",
+        "android_client_info": {
+          "package_name": "com.nexis.fooddeneme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593620282772-mohhnetmfpu7k886fimcvf983fb4trrm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUvKNiOyPjqaSMprZgFP_MAl9TZ-8m3yY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593620282772-mohhnetmfpu7k886fimcvf983fb4trrm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

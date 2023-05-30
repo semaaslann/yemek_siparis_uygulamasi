@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_container"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/restaurant_sekil"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imagehammenubir"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:background="@drawable/hammenubir">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/txthammenubir"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Menü 1"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txthambirfiyat"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="70  TL"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/btnhammenubir"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Sepete Ekle"
+                android:textStyle="bold"
+                android:textColor="#680A07"
+                android:textSize="20sp"
+                android:background="@drawable/btngiris">
+
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/restaurant_sekil"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imagehammenuiki"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:background="@drawable/hammenuiki">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/txthammenuiki"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Menü 2"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold|italic">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txthamikifiyat"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="60 TL"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold|italic">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/btnhammenuiki"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/btngiris"
+                android:text="Sepete Ekle"
+                android:textColor="#680A07"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </Button>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
